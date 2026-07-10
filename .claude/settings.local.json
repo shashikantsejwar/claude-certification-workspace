@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(npx vitest *)",
+      "Bash(cat \"/c/Users/Shashikant_Sejwar/.claude/projects/c--Users-Shashikant-Sejwar-source-repos-uigen-uigen/memory/MEMORY.md\")",
+      "Read(//c/Users/Shashikant_Sejwar/.claude/projects/c--Users-Shashikant-Sejwar-source-repos-uigen-uigen/memory/**)",
+      "mcp__playwright",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000 --max-time 3)",
+      "PowerShell(Start-Process \"http://localhost:3000\")",
+      "Bash(git add *)"
+    ]
+  }
+}
